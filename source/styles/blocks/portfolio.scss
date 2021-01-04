@@ -1,0 +1,46 @@
+.portfolio__container {
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.portfolio__left {
+    width: 50%;
+    height: 301px;
+    background-image: url("../img/MacBook.jpg");
+    background-repeat: no-repeat;
+       
+}
+.portfolio__right {
+    width: 50%;
+   
+}
+.portfolio__right-title {
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(49, 74, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.15;
+    text-align: left;
+             
+}
+.portfolio__right-subtitle {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(49, 74, 91);
+    line-height: 1.25;
+               
+}
+.portfolio__right-text  {
+    width: 60%;
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb(154, 160, 171);
+    line-height: 1.467;
+    text-align: left;
+         
+}
